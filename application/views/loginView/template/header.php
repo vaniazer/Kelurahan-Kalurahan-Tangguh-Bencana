@@ -9,27 +9,24 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-	<title><?=$judul;?></title>
+	<title>Hello, world!</title>
 
     <!-- Style CSS -->
     <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>">
-	
+    <link rel="stylesheet" href="<?= base_url('assets/css/bootstrap.min.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/onlineform.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/ownstyle.css') ?>">
+
+    <script src="<?= base_url('assets/js/jquery.min.js') ?>"></script>
+
   </head>
   <body>
-  <ul class="topnav">
-  <img src="<?=base_url('img/logo.png')?>" class="logo my-2 my-sm-0 mb-2 mr-2" alt="...">
-	<li><a class="active" href="<?=base_url('Jadwal')?>">Penjadwalan</a></li>
-	<li><a href="<?=base_url('Kegiatan')?>">Kelola Kegiatan</a></li>
-	<!-- <li class="dropdown">
-		<a href="javascript:void(0)" class="dropbtn">Bend</a>
-		<div class="dropdown-content">
-			<a href="#">Link 1</a>
-			<a href="#">Link 2</a>
-			<a href="#">Link 3</a>
-		</div>
-	</li> -->
-	<li class="right"><a href="#about" class="">Setting <i class="fas fa-cog"></i></a></li>
-  </ul>
+    <ul class="topnav">
+        <img src="<?=base_url('img/logo.png')?>" class="logo my-2 my-sm-0 mb-2 mr-2" alt="...">
+    </ul>
+	
+
+
 
 <!-- <div class="dropdown">
   <button class="dropbtn">Dropdown</button>

@@ -1,6 +1,9 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+//ADMIN
+$route['login_admin'] = 'Login/cobalogin'; 
+
 /*
 | -------------------------------------------------------------------------
 | URI ROUTING
